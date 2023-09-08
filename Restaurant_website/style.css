@@ -1,0 +1,161 @@
+/* body css */
+body{
+    background-color: #FBCEB1;
+    /*background-image: url(photo-1455587734955-081b22074882.webp);*/
+    align-content: center;
+    border-collapse: collapse;
+    object-position: center;
+    margin: 0px auto auto auto;
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+}
+
+
+button{
+    background-color: #FBCEB1;
+    border-collapse: collapse;
+    border-radius: 12px;
+}
+
+
+ul{
+    list-style-type: none;
+    border-collapse: collapse;
+    text-align: center;
+}
+/*home page css*/
+.center{
+    margin: auto;
+    width: 70%;
+    padding: 0px 10px 10px 10px;
+  }
+#home-div{
+    object-position: center;
+}
+.homebutton{
+    padding-top: 0%;
+    margin: 0%;
+    background-image: url(Restaurant.webp);
+    background-repeat: repeat;
+    border-collapse: collapse;
+    position: relative;
+    min-height: 400px;
+}
+
+
+.homebutton-items{
+    min-width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.go{
+    width: 33%;
+}
+
+
+.go:hover {
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+
+/* form css*/
+
+form{
+    object-position: center;
+    display: list-item;
+}
+.foamlistitem{
+    width: 33%;
+}
+.food-item-list{
+    border-collapse: collapse;
+    text-align: center;
+    display: block;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.list-1st-item{
+    margin-top: 30px;
+}
+.form-list-items{
+    padding-top: 20px;
+}
+.text-area{
+    width: 20%;
+}
+
+input{
+    height: 20px;
+}
+/* About page css */
+#About-us{
+    font-family: 'Brush Script MT', cursive;
+    border: 3px solid #0f0f0f;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0%;
+    margin-top: 15px;
+}
+p{
+    font-family: 'Brush Script MT', cursive;
+    border-bottom: 4px ridge rgba(211, 220, 50, .6);
+    text-align: center;
+}
+
+/* Menu page css*/
+.menu-items{
+    font-style: italic;
+    border-collapse: collapse;
+}
+.menu-header{
+    border: 2px solid #0f0f0f;
+    font-weight: bolder;
+    font-size: 18px;
+    min-height: 20px;
+    border-collapse: collapse;
+}
+
+.Breakfast-items{
+    display: flex;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+
+}
+
+.Lunch-items{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border-collapse: collapse;
+
+}
+
+.food-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 4% 0% 4%;
+    max-width: 155px;
+    border-collapse: collapse;
+}
+.food-item-list{
+    background-color: #fd5c63;
+    border-collapse: collapse;
+
+}
+img{
+    align-items: center;
+    max-width: 154px;
+    max-height: 150px;
+}
+.food-items-btn{
+    border: 1px solid black;
+    width: 154px;
+    height: 20px;
+    margin-top: 12%;
+    border-collapse: collapse;
+}
